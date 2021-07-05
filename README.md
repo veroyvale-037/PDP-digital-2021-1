@@ -3,8 +3,13 @@
 ### Integrantes
 
 Rodrigo Campusano
+
 María Jesús Del Real
+
 Fabián Estrella
+
 Verónica Gatica
+
 Valentina Herrera
+
 Azul Urrutia
