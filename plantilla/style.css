@@ -26,7 +26,7 @@ body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: "Livvic", sans-serif;
     font-weight: 400;
-    background: var(--segundocolor);
+    background: #FEF7EC;
     color: var(--colorclaro);
 }
 
