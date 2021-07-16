@@ -90,7 +90,7 @@ header {
 
 @media (min-width: 992px) {
     header {
-        background-image: url("img/fondobj11.png");
+        background-image: url("img/fondo.png");
     }
 }
 
@@ -104,7 +104,7 @@ Con tales colores, la imagen sirve de transición a la parte que ofrece más inf
 --------------------------------------------------------------------------------------------- */
 
 main {
-    background-image: url("img/obj11.png");
+    background-image: url("img/fondo2.png");
     background-position: center bottom;
     background-repeat: repeat-x;
     background-size: 100% auto;
