@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-    color: var(--coloroscuro);
+    color: #316389;
     text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ en todos los casos la imagen debería pesar menos de 300kb
 
 header {
     background-color: #FEF7EC;
-    background-image: url("img/fondoa.png");
+    background-image: url("img/fondob.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +84,7 @@ header {
 
 @media (min-width: 576px) {
     header {
-        background-image: url("img/fondob.png");
+        background-image: url("img/fondoa.png");
     }
 }
 
@@ -127,12 +127,12 @@ footer {
 
 footer a {
     text-decoration: underline;
-    color: var(--primercolor);
+    color: var(--segundocolor);
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--coloroscuro);
+    color: #316389;
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
