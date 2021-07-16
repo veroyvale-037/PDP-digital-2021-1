@@ -10,16 +10,16 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 /* cambien aquí sus tipografías, necesitan definir un par */
 
-@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;1,700&display=swap');");
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;1,700&display=swap');
 
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #222;
-    --segundocolor: #666; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #aaa; /* más luminoso y menos saturado que el primero */
-    --colorclaro: rgba(255, 255, 255, 0.9);
-    --coloroscuro: rgba(0, 0, 0, 0.9);
+    --primercolor: #F6AD39;
+    --segundocolor: #4580C1; /* menos luminoso y más saturado que el primero */
+    --tercercolor: #3E512B; /* más luminoso y menos saturado que el primero */
+    --colorclaro: rgba(254,247,236,0.9);
+    --coloroscuro: rgba(5,10,15,0.9);
 }
 
 body {
@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-    color: var(--colorclaro);
+    color: var(--coloroscuro);
     text-decoration: none;
 }
 
@@ -74,12 +74,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--segundocolor);
+    background-color: #FEF7EC;
     background-image: url("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--colorclaro);
+    color: var(--coloroscuro);
 }
 
 @media (min-width: 576px) {
@@ -117,17 +117,17 @@ main {
 }
 
 aside {
-    background: var(--tercercolor);
+    background: #FEF7EC;
     color: var(--coloroscuro);
 }
 
 footer {
-    color: var(--segundcolor);
+    color: var(--coloroscuro);
 }
 
 footer a {
-    text-decoration: none;
-    color: var(--segundcolor);
+    text-decoration: underline;
+    color: var(--primercolor);
 }
 
 footer a:hover {
